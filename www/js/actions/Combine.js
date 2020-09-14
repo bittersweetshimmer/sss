@@ -1,0 +1,1 @@
+export const Combine = (head, ...tail) => action => tail.reduce((current, next) => next(current), head(action));

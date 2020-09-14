@@ -1,0 +1,1 @@
+export const Argument = fn => action => (state, argument) => action(state, fn(argument));
